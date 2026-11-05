@@ -16,9 +16,9 @@ A web-based College Notice Board mini-project built using **HTML, CSS, and JavaS
 
 ## Group Members (B.Tech 2nd Year)
 1. 25EGJCS156 **[PAWAN PRAJAPAT]** - HTML Structure & Form Layout
-2. 25EGJCS157 **[PAWAN SHARMA]** - CSS Styling & Responsive Design
+2. 25EGJCS170 **[PUSHPENDRA ]** - CSS Styling & Responsive Design
 3. 25EGJCS168 **[PRIYANSHU JANGID]** - JavaScript Notice Posting & LocalStorage Logic
-4. 25EGJCS170 **[PUSHPENDRA ]** - Search, Category Filtering & Documentation
+4. 25EGJCS157 **[PAWAN SHARMA  ]** - Search, Category Filtering & Documentation
 
 ## How to Run
 1. Clone or download this repository.
