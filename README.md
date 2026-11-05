@@ -15,10 +15,10 @@ A web-based College Notice Board mini-project built using **HTML, CSS, and JavaS
 - **Vanilla JavaScript** (DOM Manipulation & `localStorage`)
 
 ## Group Members (B.Tech 2nd Year)
-1. **[Student 1 Name]** - HTML Structure & Form Layout
-2. **[Student 2 Name]** - CSS Styling & Responsive Design
-3. **[Student 3 Name]** - JavaScript Notice Posting & LocalStorage Logic
-4. **[Student 4 Name]** - Search, Category Filtering & Documentation
+1. **[PAWAN PRAJAPAT]** - HTML Structure & Form Layout
+2. **[PAWAN SHARMA]** - CSS Styling & Responsive Design
+3. **[PRIYANSHU JANGID]** - JavaScript Notice Posting & LocalStorage Logic
+4. **[PUSHPENDRA ]** - Search, Category Filtering & Documentation
 
 ## How to Run
 1. Clone or download this repository.
