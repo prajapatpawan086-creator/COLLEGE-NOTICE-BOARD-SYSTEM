@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Digital Notice Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1>INSTITUTE OF ENGINEERING & TECHNOLOGY</h1>
+            <p>Department of Computer Science & Engineering - Online Notice Board</p>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Left Side: Form to Add Notice (For Faculty/Admin) -->
+        <div class="form-section">
+            <h2>Post a New Notice</h2>
+            <p class="sub-text">Only for Faculty & Admin (Default PIN: 1234)</p>
+            
+            <form id="noticeForm">
+                <div class="form-group">
+                    <label for="title">Notice Title:</label>
+                    <input type="text" id="title" placeholder="e.g., Mid-Term Exam Schedule" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Department / Category:</label>
+                    <select id="category" required>
+                        <option value="Academic">Academic</option>
+                        <option value="Examination">Examination Cell</option>
+                        <option value="Events">Events & Cultural</option>
+                        <option value="Placement">Training & Placement</option>
+                        <option value="Administration">Administration / Scholarship</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="postedBy">Posted By:</label>
+                    <input type="text" id="postedBy" placeholder="e.g., HOD CSE / Exam Controller" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Notice Details:</label>
+                    <textarea id="description" rows="4" placeholder="Write the full notice description here..." required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="isUrgent">
+                    <label for="isUrgent">Mark as Important / Urgent</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="pin">Faculty PIN:</label>
+                    <input type="password" id="pin" placeholder="Enter 1234" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Publish Notice</button>
+            </form>
+        </div>
+
+        <!-- Right Side: Display Notices -->
+        <div class="board-section">
+            <div class="board-header">
+                <h2>Latest Circulars & Notices</h2>
+                
+                <!-- Search and Filter Controls -->
+                <div class="filter-controls">
+                    <input type="text" id="searchInput" placeholder="Search notice by title...">
+                    <select id="filterCategory">
+                        <option value="All">All Categories</option>
+                        <option value="Academic">Academic</option>
+                        <option value="Examination">Examination Cell</option>
+                        <option value="Events">Events & Cultural</option>
+                        <option value="Placement">Training & Placement</option>
+                        <option value="Administration">Administration</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Notices will be inserted here by JavaScript -->
+            <div id="noticeList" class="notice-list"></div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>Developed by B.Tech 2nd Year Students | Mini Project (HTML, CSS, JS)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
